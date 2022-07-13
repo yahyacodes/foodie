@@ -1,0 +1,877 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+html {
+    font-family:  Roboto,fallback-font;
+    align-items: center;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: -5px 5px 95px 5px rgba(0,0,0,0.3);
+}
+
+.header {
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.navheader  a{
+    margin:  0 1rem;
+    font-size:  1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.navheader a:hover {
+    border-bottom: 1px solid black;
+}
+
+.lane {
+    position: absolute;
+    top: 12rem;
+    left: 40rem;
+    font-size: 5rem;
+}
+
+.lane span {
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+}
+
+.talk {
+    position: absolute;
+    top: 26rem;
+    left: 57rem;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.homeimg {
+    position: absolute;
+    top: 35rem;
+    left: 30rem;
+}
+
+.delicious {
+    background-color: rgba(255, 127, 80, 0.068);
+    position: absolute;
+    top: 80rem;
+    height: 560px;
+    width: 100%;
+}
+
+.food {
+    position: absolute;
+    top: .8rem;
+}
+
+.story {
+    position: absolute;
+    top: 5rem;
+    left: 60rem;
+    font-size: 4rem;
+}
+
+.story span {
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+}
+
+.paragraph {
+    position: absolute;
+    top: 15rem;
+    left: 60rem;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ours {
+    position: absolute;
+    top: 26rem;
+    left: 60rem;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.event {
+    position: absolute;
+    top: 120rem;
+    width: 100%;
+}
+
+.offers {
+    position: absolute;
+    top: 2rem;
+    left: 40rem;
+    font-size: 4rem;
+}
+
+.offers span {
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    font-size: 3.8rem;
+}
+
+.pizza {
+    position: absolute;
+    top: 19rem;
+    left: 25rem;
+    font-size: 2rem;
+}
+
+.bite {
+    position: absolute;
+    top: 22rem;
+    left: 16rem;
+    font-size: 1.5rem;
+}
+
+.bite span {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    font-size: 1.5rem;
+}
+
+.sized {
+    position: absolute;
+    top: 28rem;
+    left: 22.2rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.trout {
+    position: absolute;
+    top: 19rem;
+    left: 65rem;
+    font-size: 2rem;
+}
+
+.every {
+    position: absolute;
+    top: 22rem;
+    left: 62rem;
+    font-size: 1.5rem;
+}
+
+.every span {
+    position: absolute;
+    top: 2rem;
+    left: 15rem;
+    font-size: 1.5rem;
+}
+
+.filled {
+    position: absolute;
+    top: 28rem;
+    left: 68rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.french {
+    position: absolute;
+    top: 45rem;
+    left: 20rem;
+    font-size: 2rem;
+}
+
+.fries {
+    position: absolute;
+    top: 48rem;
+    left: 16rem;
+    font-size: 1.5rem;
+}
+
+.fries span {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    font-size: 1.5rem;
+}
+
+.guest {
+    position: absolute;
+    top: 54rem;
+    left: 22.2rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.mini {
+    position: absolute;
+    top: 45rem;
+    left: 67rem;
+    font-size: 2rem;
+}
+
+.lamb {
+    position: absolute;
+    top: 48rem;
+    left: 62rem;
+    font-size: 1.5rem;
+}
+
+.lamb span {
+    position: absolute;
+    top: 2rem;
+    left: 6.5rem;
+    font-size: 1.5rem;
+}
+
+.go {
+    position: absolute;
+    top: 54rem;
+    left: 68rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.rooms {
+    position: absolute;
+    top: 72rem;
+    left: 20rem;
+    font-size: 2rem;
+}
+
+.mush {
+    position: absolute;
+    top: 75rem;
+    left: 16rem;
+    font-size: 1.5rem;
+}
+
+.mush span {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    font-size: 1.5rem;
+}
+
+.stuffed {
+    position: absolute;
+    top: 81rem;
+    left: 22.2rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.duck {
+    position: absolute;
+    top: 72rem;
+    left: 67rem;
+    font-size: 2rem;
+}
+
+.confit {
+    position: absolute;
+    top: 74rem;
+    left: 62rem;
+    font-size: 1.5rem;
+}
+
+.confit span {
+    position: absolute;
+    top: 2rem;
+    left: 6.5rem;
+    font-size: 1.5rem;
+}
+
+.chees {
+    position: absolute;
+    top: 81rem;
+    left: 68rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.joint {
+    position: absolute;
+    top: 100rem;
+    width: 900px;
+    height: 400px;
+    left: 27rem;
+}
+
+.services {
+    position: absolute;
+    top: 250rem;
+    background-color: rgba(255, 228, 196, 0.178);
+    width: 100%;
+    height: 500px;
+}
+
+.foodie {
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+    font-size: 4rem;
+}
+
+.pride {
+    position: absolute;
+    top: 17rem;
+    left: 20rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.never {
+    position: absolute;
+    top: 25rem;
+    left: 25rem;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.serve {
+    position: absolute;
+    top: 1rem;
+    right: 0rem;
+}
+
+
+.heather {
+    position: absolute;
+    top: 290rem;
+    left: 30rem;
+}
+
+.test {
+    position: absolute;
+    top: 292rem;
+    left: 48rem;
+    font-size: 20px;
+}
+
+.name {
+    position: absolute;
+    top: 300rem;
+    left: 48rem;
+    font-size: 2.2rem;
+}
+
+
+.nathalie {
+    position: absolute;
+    top: 312rem;
+    left: 30rem;
+}
+
+.test1 {
+    position: absolute;
+    top: 315rem;
+    left: 48rem;
+    font-size: 20px;
+}
+
+.hername {
+    position: absolute;
+    top: 323rem;
+    left: 48rem;
+    font-size: 2.2rem;
+}
+
+.eat {
+    position: absolute;
+    top: 335rem;
+    background-color: rgba(71, 21, 3, 0.096);
+    width: 100%;
+    height: 400px;
+}
+
+.first {
+    position: absolute;
+    top: 4rem;
+    left: 30rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.first span {
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+    font-size: 3rem;
+}
+
+.touch {
+    position: absolute;
+    top: 18rem;
+    left: 50rem;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.catering {
+    position: absolute;
+    top: 360rem;
+    width: 100%;
+    height: 350px;
+}
+
+.we {
+    position: absolute;
+    top: 6rem;
+    left: 28rem;
+    font-size: 3rem;
+}
+
+.biz {
+    position: absolute;
+    top: 10rem;
+    left: 28rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.email {
+    position: absolute;
+    top: 6rem;
+    left: 80rem;
+    font-size: 3rem;
+}
+
+.hello {
+    position: absolute;
+    top: 10rem;
+    left: 80rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.hello span {
+    position: absolute;
+    top: 1.7rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.here {
+    position: absolute;
+    top: 15rem;
+    left: 20rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.started {
+    position: absolute;
+    top: 22rem;
+    left: 20rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.what {
+    position: absolute;
+    top: 22rem;
+    left: 65rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pic1 {
+    position: absolute;
+    top: 35rem;
+    left: 22rem;
+}
+
+.pic2 {
+    position: absolute;
+    top: 35rem;
+    left: 62rem;
+}
+
+
+.eat1 {
+    position: absolute;
+    top: 88rem;
+    background-color: rgba(255, 230, 7, 0.171);
+    width: 100%;
+    height: 400px;
+}
+
+.first1 {
+    position: absolute;
+    top: 4rem;
+    left: 30rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.first1 span {
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+    font-size: 3rem;
+}
+
+.touch1 {
+    position: absolute;
+    top: 18rem;
+    left: 50rem;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.catering1 {
+    position: absolute;
+    top: 115rem;
+    width: 100%;
+    height: 350px;
+}
+
+.we1 {
+    position: absolute;
+    top: 6rem;
+    left: 28rem;
+    font-size: 3rem;
+}
+
+.biz1 {
+    position: absolute;
+    top: 10rem;
+    left: 28rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.email1 {
+    position: absolute;
+    top: 6rem;
+    left: 80rem;
+    font-size: 3rem;
+}
+
+.hello1 {
+    position: absolute;
+    top: 10rem;
+    left: 80rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.hello1 span {
+    position: absolute;
+    top: 1.7rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.cater {
+    position: absolute;
+    top: 15rem;
+    left: 20rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.small {
+    position: absolute;
+    top: 22rem;
+    left: 20rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.list {
+    position: absolute;
+    top: 22rem;
+    left: 68rem;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.ourserv {
+    position: absolute;
+    top: 25rem;
+    left: 68rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.extra {
+    position: absolute;
+    top: 22rem;
+    left: 82rem;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.ourserve {
+    position: absolute;
+    top: 25rem;
+    left: 82rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.servicedetail {
+    position: absolute;
+    top: 40rem;
+    left: 20rem;
+}
+
+.creps {
+    position: absolute;
+    top: 40rem;
+    left: 60rem;
+}
+
+
+.eats {
+    position: absolute;
+    top: 92rem;
+    background-color: rgba(0, 243, 0, 0.11);
+    width: 100%;
+    height: 400px;
+}
+
+.firsts {
+    position: absolute;
+    top: 4rem;
+    left: 30rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.firsts span {
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+    font-size: 3rem;
+}
+
+.touchs {
+    position: absolute;
+    top: 18rem;
+    left: 50rem;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.caterings {
+    position: absolute;
+    top: 117rem;
+    width: 100%;
+    height: 350px;
+}
+
+.wes {
+    position: absolute;
+    top: 6rem;
+    left: 28rem;
+    font-size: 3rem;
+}
+
+.bizs {
+    position: absolute;
+    top: 10rem;
+    left: 28rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.emails {
+    position: absolute;
+    top: 6rem;
+    left: 80rem;
+    font-size: 3rem;
+}
+
+.hellos {
+    position: absolute;
+    top: 10rem;
+    left: 80rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.hellos span {
+    position: absolute;
+    top: 1.7rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.modal {
+    position: absolute;
+    top: 15rem;
+    left: 36rem;
+    width: 800px;
+    height: 500px;
+    background:  white;
+    box-shadow: -1px 1px 15px 5px #000000;
+    border-radius: 20px;
+}
+
+#name{
+    position: absolute;
+    top: 5rem;
+    left: 23rem;
+    height: 30px;
+    width: 400px;
+    border: none;
+    background-color: rgba(172, 164, 164, 0.116);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+#namelbl {
+    position: absolute;
+    top: 3.5rem;
+    left: 23rem;
+    font-weight: 600;
+}
+
+#last{
+    position: absolute;
+    top: 9.5rem;
+    left: 23rem;
+    height: 30px;
+    width: 400px;
+    border: none;
+    background-color: rgba(172, 164, 164, 0.116);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+#lastlbl {
+    position: absolute;
+    top: 8rem;
+    left: 23rem;
+    font-weight: 600;
+}
+
+#email{
+    position: absolute;
+    top: 14rem;
+    left: 23rem;
+    height: 30px;
+    width: 400px;
+    border: none;
+    background-color: rgba(172, 164, 164, 0.116);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+#emaillbl {
+    position: absolute;
+    top: 12.5rem;
+    left: 23rem;
+    font-weight: 600;
+}
+
+.textarea {
+    position: absolute;
+    top: 19rem;
+    left: 23rem;
+    height: 100px;
+    width: 400px;
+    border: none;
+    background-color: rgba(172, 164, 164, 0.116);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+#textlbl {
+    position: absolute;
+    top: 17.5rem;
+    left: 23rem;
+    font-weight: 600;
+}
+
+.send {
+    position: absolute;
+    top: 27rem;
+    left: 23rem;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.say {
+    position: absolute;
+    top: 5rem;
+    left: 3rem;
+    font-size: 4rem;
+}
+
+.friendly {
+     position: absolute;
+    top: 11rem;
+    left: 3rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.close{
+    position: absolute;
+    top: .4rem;
+    left: 48rem;
+    padding: 5px 5px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
