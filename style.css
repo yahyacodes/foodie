@@ -665,21 +665,6 @@ html {
   left: 60rem;
 }
 
-.input {
-  position: absolute;
-  top: 92rem;
-  left: 23rem;
-  height: 35px;
-  width: 400px;
-  border: 1px solid #000000;
-  border-radius: 5px;
-  background-color: rgba(172, 164, 164, 0.116);
-}
-
-:placeholder-shown {
-  text-align: center;
-}
-
 .searchbtn {
   position: absolute;
   top: 92rem;
@@ -694,7 +679,7 @@ html {
 
 .eats {
   position: absolute;
-  top: 100rem;
+  top: 92rem;
   background-color: rgba(0, 243, 0, 0.11);
   width: 100%;
   height: 400px;
@@ -729,7 +714,7 @@ html {
 
 .caterings {
   position: absolute;
-  top: 117rem;
+  top: 120rem;
   width: 100%;
   height: 350px;
 }
@@ -868,6 +853,42 @@ html {
   cursor: pointer;
 }
 
+.top {
+  position: absolute;
+  top: 379rem;
+  left: 99rem;
+  padding: 10px 5px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.servicetop {
+  position: absolute;
+  top: 139rem;
+  left: 99rem;
+  padding: 10px 5px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.abouttop {
+  position: absolute;
+  top: 134rem;
+  left: 99rem;
+  padding: 10px 5px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
 .say {
   position: absolute;
   top: 5rem;
@@ -895,22 +916,68 @@ html {
 
 .form1 {
   position: absolute;
-  top: 8rem;
-  left: 20rem;
+  top: 15rem;
+  left: 30rem;
   width: 600px;
 }
 
 .say1 {
   position: absolute;
-  top: 15rem;
-  left: 15rem;
+  top: 23rem;
+  left: 25rem;
   font-size: 4rem;
 }
 
 .friendly1 {
   position: absolute;
-  top: 20rem;
-  left: 15rem;
+  top: 29rem;
+  left: 25rem;
   font-size: 20px;
+  font-weight: 600;
+}
+
+.caterin {
+  position: absolute;
+  top: 55rem;
+  width: 100%;
+  height: 350px;
+  background-color: rgba(105, 12, 12, 0.034);
+}
+
+.well {
+  position: absolute;
+  top: 6rem;
+  left: 28rem;
+  font-size: 3rem;
+}
+
+.bizness {
+  position: absolute;
+  top: 10rem;
+  left: 28rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.emailed {
+  position: absolute;
+  top: 6rem;
+  left: 80rem;
+  font-size: 3rem;
+}
+
+.hi {
+  position: absolute;
+  top: 10rem;
+  left: 80rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.hi span {
+  position: absolute;
+  top: 1.7rem;
+  left: 0rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
